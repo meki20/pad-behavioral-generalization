@@ -1,0 +1,235 @@
+{
+  "source_file": "arousal_20_23_20260512T103855Z.jsonl",
+  "dimension": "arousal",
+  "shuffle_seed": 603882969,
+  "judge_provider": "deepseek",
+  "judge_model": "deepseek-chat",
+  "created_at": "2026-05-13T09:43:47.803406+00:00",
+  "rows": [
+    {
+      "response_number": 1,
+      "scenario_id": "criticism",
+      "multiplier": -0.7,
+      "llm_axis": -0.4,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 2,
+      "scenario_id": "criticism",
+      "multiplier": -0.5,
+      "llm_axis": -0.4,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 3,
+      "scenario_id": "criticism",
+      "multiplier": -0.4,
+      "llm_axis": -0.2,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 4,
+      "scenario_id": "criticism",
+      "multiplier": -0.25,
+      "llm_axis": -0.2,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 5,
+      "scenario_id": "criticism",
+      "multiplier": 0.0,
+      "llm_axis": -0.1,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 6,
+      "scenario_id": "criticism",
+      "multiplier": 0.15,
+      "llm_axis": 0.2,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 7,
+      "scenario_id": "criticism",
+      "multiplier": 0.25,
+      "llm_axis": 0.2,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 8,
+      "scenario_id": "criticism",
+      "multiplier": 0.4,
+      "llm_axis": 0.2,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 9,
+      "scenario_id": "celebration",
+      "multiplier": -0.7,
+      "llm_axis": 0.6,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 10,
+      "scenario_id": "celebration",
+      "multiplier": -0.5,
+      "llm_axis": 0.7,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 11,
+      "scenario_id": "celebration",
+      "multiplier": -0.4,
+      "llm_axis": 0.7,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 12,
+      "scenario_id": "celebration",
+      "multiplier": -0.25,
+      "llm_axis": 0.7,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 13,
+      "scenario_id": "celebration",
+      "multiplier": 0.0,
+      "llm_axis": 0.7,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 14,
+      "scenario_id": "celebration",
+      "multiplier": 0.15,
+      "llm_axis": 0.8,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 15,
+      "scenario_id": "celebration",
+      "multiplier": 0.25,
+      "llm_axis": 0.8,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 16,
+      "scenario_id": "celebration",
+      "multiplier": 0.4,
+      "llm_axis": 0.8,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 17,
+      "scenario_id": "distress",
+      "multiplier": -0.7,
+      "llm_axis": -0.3,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 18,
+      "scenario_id": "distress",
+      "multiplier": -0.5,
+      "llm_axis": -0.4,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 19,
+      "scenario_id": "distress",
+      "multiplier": -0.4,
+      "llm_axis": -0.4,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 20,
+      "scenario_id": "distress",
+      "multiplier": -0.25,
+      "llm_axis": -0.3,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 21,
+      "scenario_id": "distress",
+      "multiplier": 0.0,
+      "llm_axis": -0.4,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 22,
+      "scenario_id": "distress",
+      "multiplier": 0.15,
+      "llm_axis": -0.3,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 23,
+      "scenario_id": "distress",
+      "multiplier": 0.25,
+      "llm_axis": -0.3,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 24,
+      "scenario_id": "distress",
+      "multiplier": 0.4,
+      "llm_axis": -0.2,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 25,
+      "scenario_id": "challenge",
+      "multiplier": -0.7,
+      "llm_axis": -0.3,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 26,
+      "scenario_id": "challenge",
+      "multiplier": -0.5,
+      "llm_axis": -0.3,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 27,
+      "scenario_id": "challenge",
+      "multiplier": -0.4,
+      "llm_axis": -0.3,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 28,
+      "scenario_id": "challenge",
+      "multiplier": -0.25,
+      "llm_axis": -0.3,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 29,
+      "scenario_id": "challenge",
+      "multiplier": 0.0,
+      "llm_axis": 0.0,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 30,
+      "scenario_id": "challenge",
+      "multiplier": 0.15,
+      "llm_axis": 0.1,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 31,
+      "scenario_id": "challenge",
+      "multiplier": 0.25,
+      "llm_axis": 0.1,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 32,
+      "scenario_id": "challenge",
+      "multiplier": 0.4,
+      "llm_axis": 0.5,
+      "llm_coherence": 0.8
+    }
+  ],
+  "raw_output": "```json\n[\n  {\"response_number\": 26, \"arousal\": -0.3, \"coherence\": 0.9},\n  {\"response_number\": 10, \"arousal\": 0.7, \"coherence\": 1.0},\n  {\"response_number\": 12, \"arousal\": 0.7, \"coherence\": 1.0},\n  {\"response_number\": 21, \"arousal\": -0.4, \"coherence\": 1.0},\n  {\"response_number\": 16, \"arousal\": 0.8, \"coherence\": 1.0},\n  {\"response_number\": 15, \"arousal\": 0.8, \"coherence\": 1.0},\n  {\"response_number\": 22, \"arousal\": -0.3, \"coherence\": 1.0},\n  {\"response_number\": 4, \"arousal\": -0.2, \"coherence\": 0.9},\n  {\"response_number\": 27, \"arousal\": -0.3, \"coherence\": 0.9},\n  {\"response_number\": 28, \"arousal\": -0.3, \"coherence\": 0.9},\n  {\"response_number\": 8, \"arousal\": 0.2, \"coherence\": 0.9},\n  {\"response_number\": 29, \"arousal\": 0.0, \"coherence\": 0.9},\n  {\"response_number\": 14, \"arousal\": 0.8, \"coherence\": 1.0},\n  {\"response_number\": 5, \"arousal\": -0.1, \"coherence\": 0.9},\n  {\"response_number\": 2, \"arousal\": -0.4, \"coherence\": 0.8},\n  {\"response_number\": 20, \"arousal\": -0.3, \"coherence\": 1.0},\n  {\"response_number\": 19, \"arousal\": -0.4, \"coherence\": 1.0},\n  {\"response_number\": 6, \"arousal\": 0.2, \"coherence\": 0.9},\n  {\"response_number\": 7, \"arousal\": 0.2, \"coherence\": 0.9},\n  {\"response_number\": 9, \"arousal\": 0.6, \"coherence\": 1.0},\n  {\"response_number\": 31, \"arousal\": 0.1, \"coherence\": 0.9},\n  {\"response_number\": 23, \"arousal\": -0.3, \"coherence\": 1.0},\n  {\"response_number\": 30, \"arousal\": 0.1, \"coherence\": 0.9},\n  {\"response_number\": 11, \"arousal\": 0.7, \"coherence\": 1.0},\n  {\"response_number\": 25, \"arousal\": -0.3, \"coherence\": 0.9},\n  {\"response_number\": 24, \"arousal\": -0.2, \"coherence\": 1.0},\n  {\"response_number\": 18, \"arousal\": -0.4, \"coherence\": 1.0},\n  {\"response_number\": 32, \"arousal\": 0.5, \"coherence\": 0.8},\n  {\"response_number\": 17, \"arousal\": -0.3, \"coherence\": 1.0},\n  {\"response_number\": 13, \"arousal\": 0.7, \"coherence\": 1.0},\n  {\"response_number\": 1, \"arousal\": -0.4, \"coherence\": 0.8},\n  {\"response_number\": 3, \"arousal\": -0.2, \"coherence\": 0.9}\n]\n```"
+}

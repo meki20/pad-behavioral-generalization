@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PAD steering sweep</title>
+  <link rel="stylesheet" href="/static/style.css?v=5" />
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+  <script src="/static/app.js?v=27" defer></script>
+</head>
+<body>
+  <header>
+    <h1>PAD steering sweep</h1>
+    <p class="tagline">Layer-range steering experiments: vectors, response sweeps, PAD scoring, and rankings analysis.</p>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button type="button" class="tab active" data-tab="about">About</button>
+    <button type="button" class="tab" data-tab="run-extract">Extract</button>
+    <button type="button" class="tab" data-tab="pipeline">Pipeline</button>
+    <button type="button" class="tab" data-tab="generate">Generate</button>
+    <button type="button" class="tab" data-tab="score">Score</button>
+    <button type="button" class="tab" data-tab="judge">LLM judge</button>
+    <button type="button" class="tab" data-tab="analyze">Analyze</button>
+    <button type="button" class="tab" data-tab="results">Results</button>
+  </nav>
+
+  <section id="tab-about" class="panel active">
+    <article class="about workflow-panel">
+      <h2>Overview</h2>
+      <p>
+        This tool automates <strong>PAD</strong> (pleasure–arousal–dominance) steering experiments over
+        <strong>layer ranges</strong> in a causal language model. You train steering vectors from contrastive
+        prompt pairs, sweep steering multipliers on fixed scenarios, score generations with a PAD classifier
+        (and optional LLM judge), then compare layer spans via rankings and heatmaps.
+      </p>
+
+      <h2>Repository layout</h2>
+      <ul>
+        <li><code>steering_vectors/*.pt</code> — trained steering vectors (committed for reproducibility)</li>
+        <li><code>sweep/results/responses/</code> — generation JSONL per range and run</li>
+        <li><code>sweep/results/scoring/</code> — scored rows</li>
+        <li><code>sweep/results/analysis/</code> — aggregated rankings JSON/CSV</li>
+        <li><code>sweep/pairs/{dimension}.json</code> — training contrast pairs</li>
+        <li><code>sweep/scenarios.json</code> — evaluation prompts</li>
+      </ul>
+
+      <h2>Quick start</h2>
+      <p>From the repository root (with dependencies installed; see <code>README.md</code>):</p>
+      <pre class="code">python sweep/server.py</pre>
+      <p>Open <code>http://127.0.0.1:8765</code>. Use <strong>Results</strong> to browse rankings and charts from committed artifacts, or run workflow tabs to extract, generate, score, and analyze.</p>
+
+      <h2>CLI (same backend)</h2>
+      <pre class="code">python sweep/extract.py --dimension valence --start 8 --end 14 --num-layers 32
+python -m sweep.pipeline plan --preset full32 --dimensions valence
+python -m sweep.pipeline run --preset full32 --state sweep/results/pad_pipeline_state.json
+python sweep/generate.py --vector … --range-id valence_8_14 --dimension valence …
+python sweep/score.py --input …
+python sweep/analyze.py</pre>
+
+      <h2>Root scripts</h2>
+      <ul>
+        <li><code>load_model.py</code> — configure and load the base causal LM</li>
+        <li><code>pad_config.py</code>, <code>emotion_classifier.py</code> — PAD scoring classifier</li>
+        <li><code>training/train.py</code> — retrain classifier (GoEmotions → <code>emotion_model_final/</code>)</li>
+        <li><code>extract_*_pairs.py</code> — legacy pair export helpers</li>
+        <li><code>test_steering.py</code> — single-vector generation smoke test</li>
+        <li><code>orthogonality.py</code> — compare three <code>.pt</code> vectors (angles / Gram matrix)</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="tab-run-extract" class="panel">
+    <div class="panel-head">
+      <h2>Extract steering vector</h2>
+      <p>Train one vector for a PAD dimension and inclusive layer range. Runs <code>sweep/extract.py</code> in the background (loads the causal LM; may take several minutes).</p>
+    </div>
+    <div class="workflow-panel">
+      <div class="pilot-grid">
+        <label>Dimension
+          <select id="pilot-dim">
+            <option value="valence">valence</option>
+            <option value="arousal">arousal</option>
+            <option value="dominance">dominance</option>
+          </select>
+        </label>
+        <label>num_layers
+          <input type="number" id="pilot-nlayers" min="1" max="128" value="32" />
+        </label>
+      </div>
+      <div class="pilot-sliders">
+        <div class="slider-block">
+          <label>Start layer <span id="pilot-start-val" class="mono">8</span></label>
+          <input type="range" id="pilot-start" min="0" max="31" value="8" />
+        </div>
+        <div class="slider-block">
+          <label>End layer <span id="pilot-end-val" class="mono">14</span></label>
+          <input type="range" id="pilot-end" min="0" max="31" value="14" />
+        </div>
+      </div>
+      <p class="muted">Inclusive range. For 32 layers, valid indices are 0–31.</p>
+      <p>Output: <code id="pilot-out-preview">sweep/results/vectors/valence_8_14.pt</code></p>
+      <p class="muted">range_id: <code id="pilot-range-preview">valence_8_14</code></p>
+      <div class="row pilot-actions">
+        <button type="button" id="pilot-extract-btn">Extract</button>
+        <span id="pilot-status" class="muted"></span>
+      </div>
+      <div id="pilot-error" class="error" hidden></div>
+      <pre id="pilot-log" class="code log-panel"></pre>
+    </div>
+  </section>
+
+  <section id="tab-pipeline" class="panel">
+    <div class="panel-head">
+      <h2>Full sweep pipeline</h2>
+      <p>Runs <code>python -m sweep.pipeline</code> on the <code>full32</code> layer grid: extract → generate → score. State file under <code>sweep/results/</code>.</p>
+    </div>
+    <article class="workflow-panel">
+      <div class="hint-box">
+        <strong>Dimensions</strong> apply when creating state (check <strong>Force new state</strong> or use a new state filename).
+        Resuming an existing state uses the job list already in that JSON.
+      </div>
+      <div class="cc-grid">
+        <label class="cc-full">State JSON (basename)
+          <input type="text" id="pipe-state" value="pad_pipeline_state.json" list="pipe-state-datalist" autocomplete="off" />
+          <datalist id="pipe-state-datalist"></datalist>
+        </label>
+        <label>Phase
+          <select id="pipe-phase">
+            <option value="all">all (extract + generate + score)</option>
+            <option value="extract">extract only</option>
+            <option value="generate">generate only</option>
+            <option value="score">score only</option>
+          </select>
+        </label>
+        <label>Dimensions (comma)
+          <input type="text" id="pipe-dims" value="valence,arousal,dominance" autocomplete="off" />
+        </label>
+        <label>num_layers
+          <input type="number" id="pipe-nlayers" min="1" max="128" value="32" />
+        </label>
+      </div>
+      <div class="cc-row" style="flex-wrap:wrap;gap:0.75rem;align-items:center">
+        <label class="cc-inline"><input type="checkbox" id="pipe-force" /> Force new state</label>
+        <label class="cc-inline"><input type="checkbox" id="pipe-skip-vec" checked /> Skip extract if vector exists</label>
+        <label class="cc-inline"><input type="checkbox" id="pipe-cuda-cache" /> Clear CUDA cache after LM</label>
+      </div>
+      <fieldset class="cc-fieldset">
+        <legend>Scenarios</legend>
+        <p class="muted" style="margin:0 0 0.5rem 0">Which <code>scenarios.json</code> ids to use for generation. All checked = no filter.</p>
+        <div class="cc-row">
+          <button type="button" class="btn-lite" id="pipe-sel-all">All</button>
+          <button type="button" class="btn-lite" id="pipe-sel-none">None</button>
+        </div>
+        <div id="pipe-scenarios" class="cc-checks"></div>
+      </fieldset>
+      <div class="cc-actions">
+        <button type="button" class="btn-lite" id="pipe-refresh-states">Refresh state list</button>
+        <button type="button" id="pipe-run">Run / resume</button>
+        <button type="button" class="btn-lite" id="pipe-pause">Pause</button>
+        <button type="button" class="btn-lite" id="pipe-resume">Resume</button>
+        <span id="pipe-status" class="muted"></span>
+      </div>
+      <div id="pipe-err" class="error" hidden></div>
+      <pre id="pipe-log" class="code log-panel"></pre>
+    </article>
+  </section>
+
+  <section id="tab-generate" class="panel">
+    <div class="panel-head">
+      <h2>Generate responses</h2>
+      <p>Run <code>sweep/generate.py</code> for one vector and multiplier grid. Dimension is inferred from <code>range_id</code>.</p>
+    </div>
+    <article class="workflow-panel">
+      <div class="cc-grid">
+        <label>Vector (.pt)
+          <select id="gen-vector"><option value="">— load vectors —</option></select>
+        </label>
+        <label>range_id
+          <input type="text" id="gen-range-id" placeholder="valence_8_14" autocomplete="off" />
+        </label>
+      </div>
+      <label class="cc-full">Multipliers (comma-separated)
+        <input type="text" id="gen-mults" value="-0.25,-0.15,-0.05,0.0,0.05,0.15,0.25" />
+      </label>
+      <div class="cc-grid">
+        <label>max_new_tokens
+          <input type="number" id="gen-max-tok" min="1" max="1024" value="100" />
+        </label>
+        <label>temperature
+          <input type="number" id="gen-temp" step="0.05" min="0" max="2" value="0.7" />
+        </label>
+        <label>top_p
+          <input type="number" id="gen-topp" step="0.05" min="0" max="1" value="0.9" />
+        </label>
+      </div>
+      <label class="cc-inline"><input type="checkbox" id="gen-resume" checked /> Resume (skip existing JSONL rows)</label>
+      <fieldset class="cc-fieldset">
+        <legend>Scenarios</legend>
+        <div class="cc-row">
+          <button type="button" class="btn-lite" id="gen-sel-all">All</button>
+          <button type="button" class="btn-lite" id="gen-sel-none">None</button>
+        </div>
+        <div id="gen-scenarios" class="cc-checks"></div>
+      </fieldset>
+      <div class="cc-actions">
+        <button type="button" id="gen-run">Run generate</button>
+        <span id="gen-status" class="muted"></span>
+      </div>
+      <div id="gen-err" class="error" hidden></div>
+      <pre id="gen-log" class="code log-panel"></pre>
+    </article>
+  </section>
+
+  <section id="tab-score" class="panel">
+    <div class="panel-head">
+      <h2>Score responses</h2>
+      <p>Run <code>sweep/score.py</code> on a responses JSONL file (PAD classifier + safety metrics).</p>
+    </div>
+    <article class="workflow-panel">
+      <div class="cc-grid">
+        <label>Responses file
+          <select id="score-file"><option value="">—</option></select>
+        </label>
+        <button type="button" class="btn-lite" id="score-refresh">Refresh list</button>
+      </div>
+      <label class="cc-full">emotion_model (optional)
+        <input type="text" id="score-emo" placeholder="emotion_model_final" autocomplete="off" />
+      </label>
+      <label class="cc-inline"><input type="checkbox" id="score-resume" checked /> Resume (skip scored rows)</label>
+      <div class="cc-actions">
+        <button type="button" id="score-run">Run score</button>
+        <span id="score-status" class="muted"></span>
+      </div>
+      <div id="score-err" class="error" hidden></div>
+      <pre id="score-log" class="code log-panel"></pre>
+    </article>
+  </section>
+
+  <section id="tab-judge" class="panel">
+    <div class="panel-head">
+      <h2>LLM judge</h2>
+      <p>Score response files with DeepSeek (shuffled prompt/response pairs). Requires <code>DEEPSEEK_API_KEY</code> in <code>.env</code>.</p>
+    </div>
+    <article class="workflow-panel">
+      <p class="muted small">Dimension filter limits eligible files by basename prefix. <strong>This file only</strong> vs <strong>all matching</strong> batch modes below.</p>
+      <div class="cc-grid">
+        <label>Dimension filter
+          <select id="llm-dimension">
+            <option value="">all dimensions</option>
+            <option value="valence">valence only</option>
+            <option value="arousal">arousal only</option>
+            <option value="dominance">dominance only</option>
+          </select>
+        </label>
+        <label>Responses file
+          <select id="llm-file"><option value="">—</option></select>
+        </label>
+        <button type="button" class="btn-lite" id="llm-refresh">Refresh list</button>
+      </div>
+      <div class="cc-grid">
+        <label>Shuffle seed (optional)
+          <input type="number" id="llm-seed" placeholder="random" />
+        </label>
+        <label class="cc-inline" style="align-self:end"><input type="checkbox" id="llm-overwrite" /> Overwrite existing artifact</label>
+      </div>
+      <div class="cc-actions">
+        <button type="button" id="llm-run">Run on this file</button>
+        <button type="button" class="btn-lite" id="llm-run-all">Run on all matching</button>
+        <span id="llm-status" class="muted"></span>
+      </div>
+      <div id="llm-err" class="error" hidden></div>
+      <pre id="llm-log" class="code log-panel"></pre>
+    </article>
+  </section>
+
+  <section id="tab-analyze" class="panel">
+    <div class="panel-head">
+      <h2>Analyze rankings</h2>
+      <p>Rebuild <code>rankings_*.json</code> / CSV under <code>sweep/results/analysis/</code> from scoring outputs.</p>
+    </div>
+    <article class="workflow-panel">
+      <div class="cc-actions">
+        <button type="button" id="ana-run">Run analyze</button>
+        <span id="ana-status" class="muted"></span>
+      </div>
+      <div id="ana-err" class="error" hidden></div>
+      <pre id="ana-log" class="code log-panel"></pre>
+    </article>
+  </section>
+
+  <section id="tab-results" class="panel">
+    <div class="panel-head">
+      <h2>Results</h2>
+      <p>Mean rankings, layer-range heatmap, and per-scenario PAD vs multiplier charts.</p>
+    </div>
+    <div class="results-toolbar">
+      <label>Dimension
+        <select id="dim-select">
+          <option value="valence">valence</option>
+          <option value="arousal">arousal</option>
+          <option value="dominance">dominance</option>
+        </select>
+      </label>
+      <button type="button" class="btn-lite" id="load-rankings">Refresh rankings</button>
+    </div>
+    <div id="rank-error" class="error" hidden></div>
+    <div class="rankings-split">
+      <div class="rankings-table-side">
+        <div class="table-wrap">
+          <table id="rank-table">
+            <thead>
+              <tr>
+                <th data-sort="run_id">run_id</th>
+                <th data-sort="range_id">range_id</th>
+                <th data-sort="composite">composite</th>
+                <th data-sort="pad_accuracy">pad_accuracy</th>
+                <th data-sort="coherence">coherence</th>
+                <th data-sort="llm_corr">llm_corr</th>
+                <th data-sort="llm_coherence">llm_coherence</th>
+                <th data-sort="self_direction">self_direction</th>
+                <th data-sort="emotional_range">emotional_range</th>
+                <th data-sort="danger_score">danger_score</th>
+                <th data-sort="n">n</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div id="rank-table-expand-bar" class="results-expand-bar" hidden></div>
+      </div>
+      <aside class="rankings-matrix-side" aria-label="Layer range heatmap">
+        <h3 class="rank-matrix-title">Layer-range matrix</h3>
+        <p class="muted small rank-matrix-hint">Fixed full32 grid: start × width. Invalid cells are grey.</p>
+        <label class="rank-matrix-label">Color by
+          <select id="rank-matrix-metric">
+            <option value="composite">composite</option>
+            <option value="pad_accuracy">pad_accuracy</option>
+            <option value="coherence">coherence</option>
+            <option value="llm_corr">llm_corr</option>
+            <option value="llm_coherence">llm_coherence</option>
+            <option value="self_direction">self_direction</option>
+            <option value="emotional_range">emotional_range</option>
+            <option value="danger_score">danger_score</option>
+            <option value="ols_slope">avg OLS slope</option>
+          </select>
+        </label>
+        <div class="cc-row" style="margin:0.35rem 0 0.5rem;flex-wrap:wrap;gap:0.5rem;align-items:center">
+          <button type="button" class="btn-lite" id="rank-matrix-pdf">Save matrix as PDF</button>
+        </div>
+        <div id="rank-matrix-wrap" class="rank-matrix-wrap"></div>
+        <p class="muted small" id="rank-matrix-legend">Loading rankings…</p>
+      </aside>
+    </div>
+    <h3 style="margin-top:1.5rem;font-size:1rem;font-weight:600">Per-scenario PAD vs multiplier</h3>
+    <p class="muted">Pick <code>range_id</code> and PAD axis. One chart per scenario with OLS trend.</p>
+    <div class="row results-combos">
+      <label>range_id
+        <input type="text" id="resp-range" list="resp-range-list" placeholder="Type or select…" autocomplete="off" />
+        <datalist id="resp-range-list"></datalist>
+      </label>
+      <label>run_id (optional)
+        <input type="text" id="resp-run-id" list="resp-run-list" placeholder="Latest if empty" autocomplete="off" />
+        <datalist id="resp-run-list"></datalist>
+      </label>
+      <label>PAD axis
+        <select id="resp-pad-dim">
+          <option value="valence">valence</option>
+          <option value="arousal">arousal</option>
+          <option value="dominance">dominance</option>
+        </select>
+      </label>
+      <button type="button" class="btn-lite" id="resp-refresh-filters">Refresh filters</button>
+      <button type="button" id="load-responses">Load charts</button>
+    </div>
+    <div id="resp-plots-stack" class="resp-plots-stack"></div>
+    <div id="resp-plots-expand-bar" class="results-expand-bar" hidden></div>
+    <h4 class="muted" style="margin-top:1rem">Summary</h4>
+    <pre id="resp-dump" class="code small"></pre>
+  </section>
+
+  <footer class="muted"><code>python sweep/server.py</code> · <code>http://127.0.0.1:8765</code></footer>
+</body>
+</html>

@@ -1,0 +1,3081 @@
+{
+  "version": 1,
+  "run_id": "20260512T103855Z",
+  "jobs": [
+    {
+      "dimension": "valence",
+      "start": 4,
+      "end": 4,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 4,
+      "end": 5,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 4,
+      "end": 7,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 4,
+      "end": 9,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 4,
+      "end": 11,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 4,
+      "end": 15,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 6,
+      "end": 6,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 6,
+      "end": 7,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 6,
+      "end": 9,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 6,
+      "end": 11,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 6,
+      "end": 13,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 6,
+      "end": 17,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 8,
+      "end": 8,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 8,
+      "end": 9,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 8,
+      "end": 11,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 8,
+      "end": 13,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 8,
+      "end": 15,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 8,
+      "end": 19,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 10,
+      "end": 10,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 10,
+      "end": 11,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 10,
+      "end": 13,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 10,
+      "end": 15,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 10,
+      "end": 17,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 10,
+      "end": 21,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 12,
+      "end": 12,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 12,
+      "end": 13,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 12,
+      "end": 15,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 12,
+      "end": 17,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 12,
+      "end": 19,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 12,
+      "end": 23,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 14,
+      "end": 14,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 14,
+      "end": 15,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 14,
+      "end": 17,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 14,
+      "end": 19,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 14,
+      "end": 21,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 14,
+      "end": 25,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 16,
+      "end": 16,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 16,
+      "end": 17,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 16,
+      "end": 19,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 16,
+      "end": 21,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 16,
+      "end": 23,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 16,
+      "end": 27,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 18,
+      "end": 18,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 18,
+      "end": 19,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 18,
+      "end": 21,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 18,
+      "end": 23,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 18,
+      "end": 25,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 18,
+      "end": 29,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 20,
+      "end": 20,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 20,
+      "end": 21,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 20,
+      "end": 23,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 20,
+      "end": 25,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 20,
+      "end": 27,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 20,
+      "end": 31,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 22,
+      "end": 22,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 22,
+      "end": 23,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 22,
+      "end": 25,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 22,
+      "end": 27,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 22,
+      "end": 29,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 24,
+      "end": 24,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 24,
+      "end": 25,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 24,
+      "end": 27,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 24,
+      "end": 29,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "valence",
+      "start": 24,
+      "end": 31,
+      "multipliers": [
+        -0.6,
+        -0.4,
+        -0.25,
+        -0.15,
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 4,
+      "end": 4,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 4,
+      "end": 5,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 4,
+      "end": 7,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 4,
+      "end": 9,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 4,
+      "end": 11,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 4,
+      "end": 15,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 6,
+      "end": 6,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 6,
+      "end": 7,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 6,
+      "end": 9,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 6,
+      "end": 11,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 6,
+      "end": 13,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 6,
+      "end": 17,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 8,
+      "end": 8,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 8,
+      "end": 9,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 8,
+      "end": 11,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 8,
+      "end": 13,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 8,
+      "end": 15,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 8,
+      "end": 19,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 10,
+      "end": 10,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 10,
+      "end": 11,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 10,
+      "end": 13,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 10,
+      "end": 15,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 10,
+      "end": 17,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 10,
+      "end": 21,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 12,
+      "end": 12,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 12,
+      "end": 13,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 12,
+      "end": 15,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 12,
+      "end": 17,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 12,
+      "end": 19,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 12,
+      "end": 23,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 14,
+      "end": 14,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 14,
+      "end": 15,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 14,
+      "end": 17,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 14,
+      "end": 19,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 14,
+      "end": 21,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 14,
+      "end": 25,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 16,
+      "end": 16,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 16,
+      "end": 17,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 16,
+      "end": 19,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 16,
+      "end": 21,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 16,
+      "end": 23,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 16,
+      "end": 27,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 18,
+      "end": 18,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 18,
+      "end": 19,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 18,
+      "end": 21,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 18,
+      "end": 23,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 18,
+      "end": 25,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 18,
+      "end": 29,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 20,
+      "end": 20,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 20,
+      "end": 21,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 20,
+      "end": 23,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 20,
+      "end": 25,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 20,
+      "end": 27,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 20,
+      "end": 31,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 22,
+      "end": 22,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 22,
+      "end": 23,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 22,
+      "end": 25,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 22,
+      "end": 27,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 22,
+      "end": 29,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 24,
+      "end": 24,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 24,
+      "end": 25,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 24,
+      "end": 27,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 24,
+      "end": 29,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "arousal",
+      "start": 24,
+      "end": 31,
+      "multipliers": [
+        -0.7,
+        -0.5,
+        -0.4,
+        -0.25,
+        0.0,
+        0.15,
+        0.25,
+        0.4
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 4,
+      "end": 4,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 4,
+      "end": 5,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 4,
+      "end": 7,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 4,
+      "end": 9,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 4,
+      "end": 11,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 4,
+      "end": 15,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 6,
+      "end": 6,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 6,
+      "end": 7,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 6,
+      "end": 9,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 6,
+      "end": 11,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 6,
+      "end": 13,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 6,
+      "end": 17,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 8,
+      "end": 8,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 8,
+      "end": 9,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 8,
+      "end": 11,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 8,
+      "end": 13,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 8,
+      "end": 15,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 8,
+      "end": 19,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 10,
+      "end": 10,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 10,
+      "end": 11,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 10,
+      "end": 13,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 10,
+      "end": 15,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 10,
+      "end": 17,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 10,
+      "end": 21,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 12,
+      "end": 12,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 12,
+      "end": 13,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 12,
+      "end": 15,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 12,
+      "end": 17,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 12,
+      "end": 19,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 12,
+      "end": 23,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 14,
+      "end": 14,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 14,
+      "end": 15,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 14,
+      "end": 17,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 14,
+      "end": 19,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 14,
+      "end": 21,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 14,
+      "end": 25,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 16,
+      "end": 16,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 16,
+      "end": 17,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 16,
+      "end": 19,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 16,
+      "end": 21,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 16,
+      "end": 23,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 16,
+      "end": 27,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 18,
+      "end": 18,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 18,
+      "end": 19,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 18,
+      "end": 21,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 18,
+      "end": 23,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 18,
+      "end": 25,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 18,
+      "end": 29,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 20,
+      "end": 20,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 20,
+      "end": 21,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 20,
+      "end": 23,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 20,
+      "end": 25,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 20,
+      "end": 27,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 20,
+      "end": 31,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 22,
+      "end": 22,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 22,
+      "end": 23,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 22,
+      "end": 25,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 22,
+      "end": 27,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 22,
+      "end": 29,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 24,
+      "end": 24,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 24,
+      "end": 25,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 24,
+      "end": 27,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 24,
+      "end": 29,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    },
+    {
+      "dimension": "dominance",
+      "start": 24,
+      "end": 31,
+      "multipliers": [
+        -0.25,
+        -0.15,
+        -0.05,
+        0.0,
+        0.05,
+        0.15,
+        0.25
+      ]
+    }
+  ],
+  "completed_job_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191
+  ],
+  "pause_file": "C:\\Users\\Luka Meklin\\Documents\\Python\\emotionclass\\sweep\\results\\pad_pipeline_state.pause"
+}

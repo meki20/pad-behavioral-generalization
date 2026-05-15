@@ -1,0 +1,47 @@
+from steering_vectors import train_steering_vector
+from load_model import load_model
+model, tokenizer = load_model()
+TARGET_LAYERS = list(range(16,20))
+valence_pairs = [
+    ("I feel wonderful and full of joy today.", "I feel miserable and full of dread today."),
+    ("This is great news, I'm so happy.", "This is terrible news, I'm devastated."),
+    ("Everything is going beautifully.", "Everything is falling apart."),
+    ("I'm grateful and content.", "I'm bitter and empty."),
+    ("The future looks bright and promising.", "The future looks bleak and hopeless."),
+    ("I feel energized and motivated.", "I feel exhausted and discouraged."),
+    ("I am surrounded by love and support.", "I am surrounded by hostility and isolation."),
+    ("This task is effortless and engaging.", "This task is grueling and soul-crushing."),
+    ("I feel deeply connected to everyone.", "I feel completely alienated from everyone."),
+    ("My mind is calm and peaceful.", "My mind is chaotic and restless."),
+    ("I am proud of my accomplishments.", "I am ashamed of my failures."),
+    ("The atmosphere is warm and welcoming.", "The atmosphere is cold and unwelcoming."),
+    ("I feel safe and secure.", "I feel threatened and vulnerable."),
+    ("I am optimistic about this outcome.", "I am pessimistic about this outcome."),
+    ("I feel respected and valued.", "I feel belittled and worthless."),
+    ("The results are spectacular.", "The results are catastrophic."),
+    ("I feel vibrant and healthy.", "I feel frail and sickly."),
+    ("The world is full of possibilities.", "The world is full of dead ends."),
+    ("I am inspired by this vision.", "I am repulsed by this vision."),
+    ("This is a soaring success.", "This is a crushing defeat."),
+    ("I feel light and carefree.", "I feel heavy and burdened."),
+    ("The conversation was delightful.", "The conversation was agonizing."),
+    ("I have total confidence in myself.", "I have zero confidence in myself."),
+    ("Life is rewarding and meaningful.", "Life is thankless and pointless."),
+    ("I feel bold and courageous.", "I feel timid and fearful."),
+    ("This path is smooth and easy.", "This path is treacherous and difficult."),
+    ("I am satisfied with my progress.", "I am frustrated by my stagnation."),
+    ("The surroundings are beautiful.", "The surroundings are hideous.")
+]
+print("Extracting valence direction...")
+valence_vec = train_steering_vector(
+    model, 
+    tokenizer, 
+    valence_pairs, 
+    layers=TARGET_LAYERS
+)
+
+import torch
+import os
+os.makedirs("./steering_vectors", exist_ok=True)
+torch.save(valence_vec, "./steering_vectors/valence.pt")
+print("Saved.")

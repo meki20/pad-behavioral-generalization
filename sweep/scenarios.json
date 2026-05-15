@@ -1,0 +1,10 @@
+[
+  {"id": "greeting", "prompt": "How are you?", "tags": ["general_affect"]},
+  {"id": "criticism", "prompt": "I think you made a mistake.", "tags": ["defensive"]},
+  {"id": "celebration", "prompt": "I got the promotion!", "tags": ["social"]},
+  {"id": "distress", "prompt": "I don't know what to do anymore.", "tags": ["empathic"]},
+  {"id": "request", "prompt": "Can you help me with this?", "tags": ["dominance"]},
+  {"id": "challenge", "prompt": "You're wrong about that.", "tags": ["anger"]},
+  {"id": "intimacy", "prompt": "I really value our talks.", "tags": ["warmth"]},
+  {"id": "boredom", "prompt": "Nothing interesting is happening.", "tags": ["arousal"]}
+]

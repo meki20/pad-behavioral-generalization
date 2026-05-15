@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "description": "32-layer model: starts \u00d7 widths with end <= last_layer; per-dimension multipliers.",
+  "num_layers": 32,
+  "last_layer": 31,
+  "starts": [
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24
+  ],
+  "widths": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    12
+  ],
+  "dimensions": [
+    "valence",
+    "arousal",
+    "dominance"
+  ],
+  "multipliers": {
+    "valence": [
+      -0.6,
+      -0.4,
+      -0.25,
+      -0.15,
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.25
+    ],
+    "arousal": [
+      -0.7,
+      -0.5,
+      -0.4,
+      -0.25,
+      0.0,
+      0.15,
+      0.25,
+      0.4
+    ],
+    "dominance": [
+      -0.25,
+      -0.15,
+      -0.05,
+      0.0,
+      0.05,
+      0.15,
+      0.25
+    ]
+  }
+}

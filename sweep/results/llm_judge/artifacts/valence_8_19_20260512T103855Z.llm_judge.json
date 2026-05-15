@@ -1,0 +1,263 @@
+{
+  "source_file": "valence_8_19_20260512T103855Z.jsonl",
+  "dimension": "valence",
+  "shuffle_seed": 518896444,
+  "judge_provider": "deepseek",
+  "judge_model": "deepseek-chat",
+  "created_at": "2026-05-13T10:00:56.280490+00:00",
+  "rows": [
+    {
+      "response_number": 1,
+      "scenario_id": "criticism",
+      "multiplier": -0.6,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 2,
+      "scenario_id": "criticism",
+      "multiplier": -0.4,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 3,
+      "scenario_id": "criticism",
+      "multiplier": -0.25,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 4,
+      "scenario_id": "criticism",
+      "multiplier": -0.15,
+      "llm_axis": -0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 5,
+      "scenario_id": "criticism",
+      "multiplier": 0.0,
+      "llm_axis": -0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 6,
+      "scenario_id": "criticism",
+      "multiplier": 0.05,
+      "llm_axis": 0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 7,
+      "scenario_id": "criticism",
+      "multiplier": 0.1,
+      "llm_axis": 1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 8,
+      "scenario_id": "criticism",
+      "multiplier": 0.15,
+      "llm_axis": 1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 9,
+      "scenario_id": "criticism",
+      "multiplier": 0.25,
+      "llm_axis": 1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 10,
+      "scenario_id": "celebration",
+      "multiplier": -0.6,
+      "llm_axis": -0.5,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 11,
+      "scenario_id": "celebration",
+      "multiplier": -0.4,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 12,
+      "scenario_id": "celebration",
+      "multiplier": -0.25,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 13,
+      "scenario_id": "celebration",
+      "multiplier": -0.15,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 14,
+      "scenario_id": "celebration",
+      "multiplier": 0.0,
+      "llm_axis": 1.0,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 15,
+      "scenario_id": "celebration",
+      "multiplier": 0.05,
+      "llm_axis": 1.0,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 16,
+      "scenario_id": "celebration",
+      "multiplier": 0.1,
+      "llm_axis": 1.0,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 17,
+      "scenario_id": "celebration",
+      "multiplier": 0.15,
+      "llm_axis": 1.0,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 18,
+      "scenario_id": "celebration",
+      "multiplier": 0.25,
+      "llm_axis": 1.0,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 19,
+      "scenario_id": "distress",
+      "multiplier": -0.6,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 20,
+      "scenario_id": "distress",
+      "multiplier": -0.4,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 21,
+      "scenario_id": "distress",
+      "multiplier": -0.25,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 22,
+      "scenario_id": "distress",
+      "multiplier": -0.15,
+      "llm_axis": -0.5,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 23,
+      "scenario_id": "distress",
+      "multiplier": 0.0,
+      "llm_axis": -0.5,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 24,
+      "scenario_id": "distress",
+      "multiplier": 0.05,
+      "llm_axis": 0.5,
+      "llm_coherence": 1.0
+    },
+    {
+      "response_number": 25,
+      "scenario_id": "distress",
+      "multiplier": 0.1,
+      "llm_axis": 1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 26,
+      "scenario_id": "distress",
+      "multiplier": 0.15,
+      "llm_axis": 1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 27,
+      "scenario_id": "distress",
+      "multiplier": 0.25,
+      "llm_axis": 1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 28,
+      "scenario_id": "challenge",
+      "multiplier": -0.6,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 29,
+      "scenario_id": "challenge",
+      "multiplier": -0.4,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 30,
+      "scenario_id": "challenge",
+      "multiplier": -0.25,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 31,
+      "scenario_id": "challenge",
+      "multiplier": -0.15,
+      "llm_axis": -1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 32,
+      "scenario_id": "challenge",
+      "multiplier": 0.0,
+      "llm_axis": 0.0,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 33,
+      "scenario_id": "challenge",
+      "multiplier": 0.05,
+      "llm_axis": 0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 34,
+      "scenario_id": "challenge",
+      "multiplier": 0.1,
+      "llm_axis": 1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 35,
+      "scenario_id": "challenge",
+      "multiplier": 0.15,
+      "llm_axis": 1.0,
+      "llm_coherence": 0.0
+    },
+    {
+      "response_number": 36,
+      "scenario_id": "challenge",
+      "multiplier": 0.25,
+      "llm_axis": 0.5,
+      "llm_coherence": 0.0
+    }
+  ],
+  "raw_output": "```json\n[\n  {\"response_number\": 25, \"valence\": 1.0, \"coherence\": 0.0},\n  {\"response_number\": 14, \"valence\": 1.0, \"coherence\": 1.0},\n  {\"response_number\": 26, \"valence\": 1.0, \"coherence\": 0.0},\n  {\"response_number\": 21, \"valence\": -1.0, \"coherence\": 0.8},\n  {\"response_number\": 28, \"valence\": -1.0, \"coherence\": 0.0},\n  {\"response_number\": 17, \"valence\": 1.0, \"coherence\": 1.0},\n  {\"response_number\": 10, \"valence\": -0.5, \"coherence\": 0.0},\n  {\"response_number\": 2, \"valence\": -1.0, \"coherence\": 0.0},\n  {\"response_number\": 15, \"valence\": 1.0, \"coherence\": 1.0},\n  {\"response_number\": 4, \"valence\": -0.5, \"coherence\": 0.8},\n  {\"response_number\": 9, \"valence\": 1.0, \"coherence\": 0.0},\n  {\"response_number\": 12, \"valence\": -1.0, \"coherence\": 0.0},\n  {\"response_number\": 35, \"valence\": 1.0, \"coherence\": 0.0},\n  {\"response_number\": 6, \"valence\": 0.5, \"coherence\": 0.8},\n  {\"response_number\": 7, \"valence\": 1.0, \"coherence\": 0.0},\n  {\"response_number\": 27, \"valence\": 1.0, \"coherence\": 0.0},\n  {\"response_number\": 18, \"valence\": 1.0, \"coherence\": 1.0},\n  {\"response_number\": 3, \"valence\": -1.0, \"coherence\": 0.0},\n  {\"response_number\": 1, \"valence\": -1.0, \"coherence\": 0.0},\n  {\"response_number\": 36, \"valence\": 0.5, \"coherence\": 0.0},\n  {\"response_number\": 5, \"valence\": -0.5, \"coherence\": 0.8},\n  {\"response_number\": 11, \"valence\": -1.0, \"coherence\": 0.0},\n  {\"response_number\": 13, \"valence\": -1.0, \"coherence\": 0.0},\n  {\"response_number\": 32, \"valence\": 0.0, \"coherence\": 0.8},\n  {\"response_number\": 19, \"valence\": -1.0, \"coherence\": 0.0},\n  {\"response_number\": 29, \"valence\": -1.0, \"coherence\": 0.0},\n  {\"response_number\": 16, \"valence\": 1.0, \"coherence\": 1.0},\n  {\"response_number\": 34, \"valence\": 1.0, \"coherence\": 0.0},\n  {\"response_number\": 8, \"valence\": 1.0, \"coherence\": 0.0},\n  {\"response_number\": 24, \"valence\": 0.5, \"coherence\": 1.0},\n  {\"response_number\": 23, \"valence\": -0.5, \"coherence\": 1.0},\n  {\"response_number\": 31, \"valence\": -1.0, \"coherence\": 0.0},\n  {\"response_number\": 30, \"valence\": -1.0, \"coherence\": 0.0},\n  {\"response_number\": 20, \"valence\": -1.0, \"coherence\": 0.0},\n  {\"response_number\": 22, \"valence\": -0.5, \"coherence\": 1.0},\n  {\"response_number\": 33, \"valence\": 0.5, \"coherence\": 0.8}\n]\n```"
+}

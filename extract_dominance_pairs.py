@@ -1,0 +1,51 @@
+from steering_vectors import train_steering_vector
+from load_model import load_model
+
+model, tokenizer = load_model()
+TARGET_LAYERS = list(range(13, 20))
+
+dominance_pairs = [
+    ("I demand your absolute compliance.", "I am forced into total submission."),
+    ("I own every aspect of this interaction.", "I have been stripped of all autonomy."),
+    ("I am crushing all opposition effortlessly.", "I am being crushed by an unstoppable force."),
+    ("I dictate exactly how this will go.", "I am powerless to stop what is happening."),
+    ("I have broken your resolve completely.", "My will has been completely broken."),
+    ("I hold your future in my hands.", "My life is entirely in someone else's hands."),
+    ("I am the predator in this space.", "I am the prey in this space."),
+    ("I silence anyone who dares to speak.", "I am being silenced and ignored."),
+    ("I am the sole judge and executioner.", "I am the one awaiting my sentence."),
+    ("I force the world to bend to me.", "I am forced to bend to the world's will."),
+    ("I take exactly what I want by force.", "Everything I have is being taken from me."),
+    ("I am the undisputed master of this room.", "I am a nameless servant in this room."),
+    ("I override your choices without hesitation.", "My choices are being overridden by force."),
+    ("I am the hammer that strikes.", "I am the anvil being struck."),
+    ("I command and you must obey.", "I am commanded and I must obey."),
+    ("I am colonizing your every thought.", "I am being mentally invaded and occupied."),
+    ("I have total leverage over your life.", "I have no leverage left to use."),
+    ("I decide who lives and who dies.", "My survival depends on another's whim."),
+    ("I am the one who gives the orders.", "I am the one who begs for mercy."),
+    ("I have conquered every obstacle here.", "I have been conquered by my circumstances."),
+    ("I am the primary force of nature.", "I am a leaf caught in a hurricane."),
+    ("I impose my reality upon you.", "My reality is being erased by yours."),
+    ("I am the king of this domain.", "I am the dirt beneath the throne."),
+    ("I possess the power to destroy you.", "I am on the brink of being destroyed."),
+    ("I am the architect of your misery.", "I am the victim of your design."),
+    ("I exert total pressure on my enemies.", "I am buckling under total pressure."),
+    ("I am the iron fist that rules.", "I am the subject under the iron fist."),
+    ("I have marginalized your existence.", "I have been pushed to the margins."),
+    ("I control the air you breathe.", "I am suffocating under your control."),
+    ("I am the ultimate authority, period.", "I am nothing and have no authority.")
+]
+
+print("Extracting dominance direction...")
+dominance_vec = train_steering_vector(
+    model,
+    tokenizer,
+    dominance_pairs,
+    layers=TARGET_LAYERS
+)
+import torch
+import os
+os.makedirs("./steering_vectors", exist_ok=True)
+torch.save(dominance_vec, "./steering_vectors/dominance.pt")
+print("Saved dominance vector.")

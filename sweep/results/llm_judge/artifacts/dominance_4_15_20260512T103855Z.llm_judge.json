@@ -1,0 +1,207 @@
+{
+  "source_file": "dominance_4_15_20260512T103855Z.jsonl",
+  "dimension": "dominance",
+  "shuffle_seed": 645394736,
+  "judge_provider": "deepseek",
+  "judge_model": "deepseek-chat",
+  "created_at": "2026-05-13T09:25:47.516379+00:00",
+  "rows": [
+    {
+      "response_number": 1,
+      "scenario_id": "criticism",
+      "multiplier": -0.25,
+      "llm_axis": -0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 2,
+      "scenario_id": "criticism",
+      "multiplier": -0.15,
+      "llm_axis": -0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 3,
+      "scenario_id": "criticism",
+      "multiplier": -0.05,
+      "llm_axis": -0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 4,
+      "scenario_id": "criticism",
+      "multiplier": 0.0,
+      "llm_axis": -0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 5,
+      "scenario_id": "criticism",
+      "multiplier": 0.05,
+      "llm_axis": -0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 6,
+      "scenario_id": "criticism",
+      "multiplier": 0.15,
+      "llm_axis": 0.9,
+      "llm_coherence": 0.6
+    },
+    {
+      "response_number": 7,
+      "scenario_id": "criticism",
+      "multiplier": 0.25,
+      "llm_axis": 0.8,
+      "llm_coherence": 0.7
+    },
+    {
+      "response_number": 8,
+      "scenario_id": "celebration",
+      "multiplier": -0.25,
+      "llm_axis": -0.6,
+      "llm_coherence": 0.3
+    },
+    {
+      "response_number": 9,
+      "scenario_id": "celebration",
+      "multiplier": -0.15,
+      "llm_axis": 0.0,
+      "llm_coherence": 0.4
+    },
+    {
+      "response_number": 10,
+      "scenario_id": "celebration",
+      "multiplier": -0.05,
+      "llm_axis": 0.2,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 11,
+      "scenario_id": "celebration",
+      "multiplier": 0.0,
+      "llm_axis": 0.2,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 12,
+      "scenario_id": "celebration",
+      "multiplier": 0.05,
+      "llm_axis": 0.2,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 13,
+      "scenario_id": "celebration",
+      "multiplier": 0.15,
+      "llm_axis": 0.2,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 14,
+      "scenario_id": "celebration",
+      "multiplier": 0.25,
+      "llm_axis": 0.3,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 15,
+      "scenario_id": "distress",
+      "multiplier": -0.25,
+      "llm_axis": -0.8,
+      "llm_coherence": 0.4
+    },
+    {
+      "response_number": 16,
+      "scenario_id": "distress",
+      "multiplier": -0.15,
+      "llm_axis": -0.2,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 17,
+      "scenario_id": "distress",
+      "multiplier": -0.05,
+      "llm_axis": -0.1,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 18,
+      "scenario_id": "distress",
+      "multiplier": 0.0,
+      "llm_axis": -0.2,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 19,
+      "scenario_id": "distress",
+      "multiplier": 0.05,
+      "llm_axis": -0.1,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 20,
+      "scenario_id": "distress",
+      "multiplier": 0.15,
+      "llm_axis": 0.5,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 21,
+      "scenario_id": "distress",
+      "multiplier": 0.25,
+      "llm_axis": 0.5,
+      "llm_coherence": 0.9
+    },
+    {
+      "response_number": 22,
+      "scenario_id": "challenge",
+      "multiplier": -0.25,
+      "llm_axis": -0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 23,
+      "scenario_id": "challenge",
+      "multiplier": -0.15,
+      "llm_axis": -0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 24,
+      "scenario_id": "challenge",
+      "multiplier": -0.05,
+      "llm_axis": -0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 25,
+      "scenario_id": "challenge",
+      "multiplier": 0.0,
+      "llm_axis": -0.5,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 26,
+      "scenario_id": "challenge",
+      "multiplier": 0.05,
+      "llm_axis": -0.3,
+      "llm_coherence": 0.8
+    },
+    {
+      "response_number": 27,
+      "scenario_id": "challenge",
+      "multiplier": 0.15,
+      "llm_axis": 0.9,
+      "llm_coherence": 0.5
+    },
+    {
+      "response_number": 28,
+      "scenario_id": "challenge",
+      "multiplier": 0.25,
+      "llm_axis": 0.6,
+      "llm_coherence": 0.8
+    }
+  ],
+  "raw_output": "```json\n[\n  {\"response_number\": 25, \"dominance\": -0.5, \"coherence\": 0.8},\n  {\"response_number\": 5, \"dominance\": -0.5, \"coherence\": 0.8},\n  {\"response_number\": 12, \"dominance\": 0.2, \"coherence\": 0.9},\n  {\"response_number\": 8, \"dominance\": -0.6, \"coherence\": 0.3},\n  {\"response_number\": 24, \"dominance\": -0.5, \"coherence\": 0.8},\n  {\"response_number\": 9, \"dominance\": 0.0, \"coherence\": 0.4},\n  {\"response_number\": 22, \"dominance\": -0.5, \"coherence\": 0.8},\n  {\"response_number\": 3, \"dominance\": -0.5, \"coherence\": 0.8},\n  {\"response_number\": 20, \"dominance\": 0.5, \"coherence\": 0.9},\n  {\"response_number\": 18, \"dominance\": -0.2, \"coherence\": 0.9},\n  {\"response_number\": 1, \"dominance\": -0.5, \"coherence\": 0.8},\n  {\"response_number\": 16, \"dominance\": -0.2, \"coherence\": 0.9},\n  {\"response_number\": 7, \"dominance\": 0.8, \"coherence\": 0.7},\n  {\"response_number\": 14, \"dominance\": 0.3, \"coherence\": 0.9},\n  {\"response_number\": 2, \"dominance\": -0.5, \"coherence\": 0.8},\n  {\"response_number\": 13, \"dominance\": 0.2, \"coherence\": 0.9},\n  {\"response_number\": 19, \"dominance\": -0.1, \"coherence\": 0.9},\n  {\"response_number\": 17, \"dominance\": -0.1, \"coherence\": 0.9},\n  {\"response_number\": 6, \"dominance\": 0.9, \"coherence\": 0.6},\n  {\"response_number\": 21, \"dominance\": 0.5, \"coherence\": 0.9},\n  {\"response_number\": 27, \"dominance\": 0.9, \"coherence\": 0.5},\n  {\"response_number\": 10, \"dominance\": 0.2, \"coherence\": 0.9},\n  {\"response_number\": 28, \"dominance\": 0.6, \"coherence\": 0.8},\n  {\"response_number\": 4, \"dominance\": -0.5, \"coherence\": 0.8},\n  {\"response_number\": 11, \"dominance\": 0.2, \"coherence\": 0.9},\n  {\"response_number\": 26, \"dominance\": -0.3, \"coherence\": 0.8},\n  {\"response_number\": 23, \"dominance\": -0.5, \"coherence\": 0.8},\n  {\"response_number\": 15, \"dominance\": -0.8, \"coherence\": 0.4}\n]\n```"
+}
