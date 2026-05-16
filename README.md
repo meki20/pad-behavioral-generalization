@@ -101,8 +101,4 @@ Always run commands from the **repository root** so `from sweep…` imports reso
 
 ## Citation
 
-If you use this code or bundled results in academic work, please cite the accompanying paper (details TBD).
-
-## License
-
-TBD.
+If you use this code or bundled results in academic work, please cite the accompanying paper [Cross-Domain Behavioral Generalization from PAD-Space Activation Steering in Small Language Models](https://osf.io/62qp5/).
